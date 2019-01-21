@@ -7,5 +7,7 @@
     },
     "description": "F3 Starter kit incl. assets manager, SASS compiler & UIkit",
     "type": "project",
+    "minimum-stability": "beta",
+    "prefer-stable": true,
     "license": "GPL-3.0-or-later"
 }
