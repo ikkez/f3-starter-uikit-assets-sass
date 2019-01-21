@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<base href="{{ @baseURL }}" />
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>F3 UIkit SASS Starter</title>
+	<link rel="stylesheet" href="css/uikit-base.scss" />
+	<link rel="stylesheet" href="css/main.scss" priority="1" slot="end" />
+</head>
+<body>
+
+<nav class="uk-navbar-container uk-background-primary" uk-navbar>
+	<div class="uk-navbar-left">
+		<span class="uk-navbar-item uk-logo">F3 UIkit SASS Starter</span>
+	</div>
+</nav>
+
+<div class="uk-container uk-margin-top">
+	<div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">
+				<h3 class="uk-card-title">Default</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-primary uk-card-body">
+				<h3 class="uk-card-title">Primary</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-secondary uk-card-body">
+				<h3 class="uk-card-title">Secondary</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="components/uikit/js/uikit.min.js" priority="8"></script>
+<script src="components/uikit/js/uikit-icons.min.js" priority="8"></script>
+<script src="js/main.js" priority="5" slot="end"></script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+@import "variables.scss";
+@import "../components/sass-rem/_rem.scss";
+
+
+html {
+  @include rem-baseline;
+}
+
+
+// custom styles
+body {
+  font-size: rem(16px);
+}
+
+
+// large screens, >= 1600px
+@media (min-width: $breakpoint-xlarge) {
+
+}
+// desktop and bigger, >= 1200px
+@media (min-width: $breakpoint-large) {
+
+}
+// desktop and smaller, < 1600px
+@media (max-width: $breakpoint-large-max) {
+
+}
+// Tablet Landscape and bigger, >= 960px
+@media (min-width: $breakpoint-medium) {
+
+}
+// Tablet Landscape and smaller, < 1200px
+@media (max-width: $breakpoint-medium-max) {
+
+}
+// Phone landscape / Tablet Portrait and bigger, >= 640px
+@media (min-width: $breakpoint-small) {
+
+}
+// Phone landscape / Tablet Portrait and smaller, < 960px
+@media (max-width: $breakpoint-small-max) {
+
+}
+// Phone portrait only, < 640px
+@media (max-width: $breakpoint-xsmall-max) {
+
+}
+// very small, < 400px
+@media (max-width: $breakpoint-mini) {
+
+}

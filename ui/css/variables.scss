@@ -1,0 +1,28 @@
+$breakpoint-mini: 400px;
+$breakpoint-small: 640px !default;
+$breakpoint-medium: 960px !default;
+$breakpoint-large: 1200px !default;
+$breakpoint-xlarge: 1600px !default;
+$breakpoint-xsmall-max: ($breakpoint-small - 1) !default;
+$breakpoint-small-max: ($breakpoint-medium - 1) !default;
+$breakpoint-medium-max: ($breakpoint-large - 1) !default;
+$breakpoint-large-max: ($breakpoint-xlarge - 1) !default;
+
+
+$primary: #1e87f0 !default;
+$success: #32d296 !default;
+$warning: #faa05a !default;
+$danger: #f0506e !default;
+
+$text-color: #666 !default;
+
+
+// colors
+$global-primary-background: $primary;
+$global-success-background: $success;
+$global-warning-background: $warning;
+$global-danger-background: $danger;
+
+$global-color: $text-color;
+
+// add more variable overwrites from ui/components/uikit/scss/variables-theme.scss

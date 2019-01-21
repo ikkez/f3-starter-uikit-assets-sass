@@ -1,0 +1,11 @@
+{
+    "name": "ikkez/f3-starter-uikit-assets-sass",
+    "require": {
+        "php": "^5.4.7 || ^7.0",
+        "bcosca/fatfree-core": "^3.6",
+        "ikkez/f3-assets-sass": "^1.0"
+    },
+    "description": "F3 Starter kit incl. assets manager, SASS compiler & UIkit",
+    "type": "project",
+    "license": "GPLv3"
+}
